@@ -16,7 +16,6 @@
 .wrapper{
     max-width: 95%;
     display: flex;
-    justify-content: space-between;
 }
 .contentActors{
     width: 100%;
