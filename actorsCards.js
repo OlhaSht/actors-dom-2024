@@ -2,12 +2,14 @@
 const root = document.querySelector("#root");
 const contentActors = document.querySelector('.contentActors')
 const wrapperActors = document.querySelector('.wrapper')
+const contentName = document.querySelector('.contentName')
 
-function createElement(tag = "article", ...children) {
-  const element = document.createElement(tag);
-  element.append(...children);
-  return element;
-}
+
+// function createElement(tag = "article", ...children) {
+//   const element = document.createElement(tag);
+//   element.append(...children);
+//   return element;
+// }
 
 function createCard(actor) {
   const articleParent = document.createElement("article");
