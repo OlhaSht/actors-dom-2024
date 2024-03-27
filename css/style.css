@@ -1,35 +1,37 @@
-.actorPhoto
-{
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    border-radius: 50% ;
-    border: 3px solid rgb(207, 138, 138);
-    padding: 2px;
-
+.actorPhoto {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid;
+  padding: 2px;
 }
-.fbicon{
-    width: 20px;
-    height: 20px;
-    object-fit: cover;
+.fbicon {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
 }
-.wrapper{
-    max-width: 95%;
-    display: flex;
+.contentActors {
+  margin: auto;
+  padding: 1vh;
+  border: 3px solid red;
 }
-.contentActors{
-    width: 100%;
-    margin: auto;
-    border: 3px solid red;
-     
+#root {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: stretch;
+  width: 100%;
+  height: 100%;
+  margin-top: 10%;
 }
-.blockActors{
-    max-width: 17vw;
-    width: 100%;
-    height: 25vh;
-    background-color: white;
-    border: 2px solid rgb(26, 168, 81);
-    margin-top: 2vh;
-    padding: 1vh 2vw;
-    
+.blockActors {
+    width: 25%;
+  height: 25vh;
+  background-color: white;
+  border: 2px solid rgb(26, 168, 81);
+  margin: 1vh;
+  padding: 1vh 1vw;
+  flex-direction: column;
+  text-align: center;
 }
